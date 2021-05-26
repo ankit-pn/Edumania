@@ -1,0 +1,197 @@
+/*body
+{
+	background: url("back1.jpg") no-repeat center center fixed;
+
+	background-size: cover;
+	
+}*/
+body
+{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+.cont
+{display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*border: 3px solid red;*/
+	background-color: #d5eaf5;
+	background: url(jeep.png) no-repeat center center;
+	background-size: cover;
+}
+.cont h1
+{
+	font-size: 60px;
+	
+	
+	font-family: 'Baloo Bhai 2', cursive;
+	color: purple;
+
+}
+#cont2 h1
+{
+	color: white;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	border: 3px solid green;
+	padding: 30px ;
+	margin: 40px;
+	border-radius: 40px;
+	font-family: 'Baloo Bhai 2', cursive;
+	width: 70%;
+
+}
+.box:hover
+{
+	transform: scale(1.1);
+
+}
+.box h2
+{
+	font-size: 40px;
+}
+.box1
+{
+	display: flex;
+	flex-direction: row;
+	font-size: 22px;
+	font-family: 'Chela One', cursive;
+	font-family: 'Pattaya', sans-serif;
+}
+.box1 img {
+	height: 160px;
+
+
+}
+.box1 div
+{
+	margin: 12px 12px;
+}
+#id1
+{
+	background-color: #e7fbe7;
+	
+}
+#id1 img
+{
+	border: 2px solid green;
+	border-radius: 10px;
+}
+#id2
+{
+	background-color: #fff0d5;
+
+}
+#id2 img
+{
+	border: 2px solid orange;
+	border-radius: 10px;
+}
+#id3
+{
+	background-color: #eaeaea;
+}
+#id3 img
+{
+	border: 2px solid black;
+	border-radius: 10px;
+}
+#cont2
+{
+	background-color: #e0e0e0;
+	background: url("coding.png") no-repeat center center;
+	background-size: cover;
+
+}
+.box button
+{
+	background-color: red;
+	color: white;
+	font-size: 1.4rem;
+	padding: 10px 12px;
+	border-radius: 13px;
+	cursor: pointer;
+}
+.box button:hover
+{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+	
+}
+.index
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 50px;
+	padding: 50px 50px;
+	border: 2px solid black;
+
+}
+.boxe a
+{
+	margin: 12px 30px;
+}
+
+.index img
+{
+	height: 160px;
+}
+.index img:hover
+{
+	transform: scale(1.2);
+}
+.index h1
+{
+	font-size: 50px;
+	
+	
+	font-family: 'Baloo Bhai 2', cursive;
+	color: purple;
+}
+.notes
+{
+	display: flex;
+	border: 2px solid red;
+	padding: 50px 50px;
+	align-items: center;
+	justify-content: center;
+}
+.notes img
+{
+	height: 250px;
+	width: 250px;
+}
+.notebox
+{
+	border: 4px solid black;
+	display: flex;
+	flex-direction: column;
+	margin: 12px 40px;
+	align-items: center;
+	padding: 20px 30px;
+	border-radius: 15px;
+}
+.notebox button
+{
+	background-color: red;
+	color: white;
+	font-size: 1.4rem;
+	padding: 10px 12px;
+	border-radius: 13px;
+	cursor: pointer;
+	margin-top: 15px;
+
+}
+
+.notebox button:hover
+{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+	
+}
